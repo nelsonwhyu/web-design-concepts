@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  webapp:
+    restart: always
+    build: .
+    image: web-design-concept-image:latest
+    ports:
+      - "8080:8080"
