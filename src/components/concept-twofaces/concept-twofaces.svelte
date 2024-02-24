@@ -7,7 +7,7 @@
 	id="concept-2"
 	class={`${$$props.class} flex h-[90svh] w-full flex-col items-center justify-center gap-10`}
 >
-	<BgHexagon class="absolute z-20 h-full w-full" />
+	<BgHexagon class="hidden xl:block absolute z-20 h-full w-full" />
 	<div
 		class="pointer-events-none absolute flex w-full flex-row items-center gap-10 py-10 tracking-widest"
 	>
