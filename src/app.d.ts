@@ -8,6 +8,15 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+	namespace svelteHTML {
+		interface HTMLAttributes<T> {
+			'on:isVisible'?: (event: CustomEvent) => void;
+		}
+	}
+	module '*.png';
+	module '*.svg';
+	module '*.jpeg';
+	module '*.jpg';
 }
 
-export {};
+export { };
